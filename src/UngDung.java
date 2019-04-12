@@ -404,7 +404,7 @@ public class UngDung extends javax.swing.JFrame {
                         
                     }
                     thoiluong.setValue(max);
-                } catch (Exception e) {
+                } catch (InterruptedException e) {
                 }
                 btnStopActionPerformed(null);
             }
